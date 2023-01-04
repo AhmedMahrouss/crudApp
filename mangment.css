@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(23, 23, 42);
+    overflow: hidden;
+}.container{
+    padding: 0px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 30px;
+    font-weight: bold;
+}.container h1{
+    margin-bottom: 25px;
+    text-align: center;
+}.container input{
+ margin-bottom: 10px;
+ padding: 7px;
+ border: none;
+ outline: none;
+}.container :nth-child(7){
+    margin-bottom: 12px;
+}.container button{
+background-color: darkgreen;
+color: #fff;
+font-weight: bold;
+padding: 7px;
+border-radius: 5px;
+cursor: pointer;
+border: none;
+margin-bottom: 10px;
+transition: .5s;
+}#delAll{
+    background-color: darkred;
+    border:none;
+    margin-bottom: 30px;
+    display: none;
+}.container button:hover{
+background-color: rgb(6, 145, 6);
+}#delAll:hover{
+background-color: red;
+}table{
+    border-collapse: collapse;
+    width: 80%;
+}.table{
+display: flex;
+justify-content: center;
+color: wheat;
+}table tr ,td{
+ padding: 8px 30px;
+}table th{
+   padding:10px;
+}thead{
+    background-color: rgb(27, 26, 26);
+}tbody{
+   background-color: rgb(53, 53, 53);
+}table button{
+   width: 50px;
+   padding: 4px;
+   background-color: rgba(255, 213, 5, 0.941);
+   color: #000;
+   font-weight: bold;
+   border: none;
+   cursor: pointer;
+   transition: .5s;
+}#deluser{
+    background-color: darkred;
+    color: #fff;
+}table button:hover{
+    background-color: yellow;
+}#deluser:hover{
+    background-color: red;
+}#name::placeholder ,#jop::placeholder ,#roll::placeholder{
+    color: red;
+    font-weight: bold;
+}
